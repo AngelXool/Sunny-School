@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Sunny_School.Pages.Info_Alumno
+namespace Sunny_School.Pages.NewFolder
 {
-    public class CreateModel : PageModel
+    public class CreateThirdModel : PageModel
     {
         public void OnGet()
         {
 
         }
         [BindProperty]
-        public Alumno Enlace { get; set; }
-        public class Alumno
+
+        public Familiar Enlace3 { get; set; }
+        public class Familiar
         {
 
             [Required]
-            [Display(Name = "Nombre:")]
-            public string Nombre { get; set; }
+            [Display(Name = "Nombre del Tutor:")]
+            public string Nombretutor { get; set; }
 
             [Required]
             [Display(Name = "C.U.R.P:")]
@@ -37,17 +37,16 @@ namespace Sunny_School.Pages.Info_Alumno
             public DateTime Fecha_Nacimineto { get; set; }
 
             [Required]
-            [Display(Name = "Genero:")]
-            public string Genero { get; set; }
+            [Display(Name = "Ocupacion:")]
+            public string Ocupacion { get; set; }
 
             [Required]
-            [Display(Name = "¿Tiene alguna discapacidad?")]
-            public string Discapacidad { get; set; }
+            [Display(Name = "Nombre de la Madre:")]
+            public string NombreMom { get; set; }
 
-
-
+            [Required]
+            [Display(Name = "Ingresos: $")]
+            public string Ingresos { get; set; }
         }
-        
-
     }
 }

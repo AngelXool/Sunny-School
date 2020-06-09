@@ -222,3 +222,5 @@ C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp
 C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp3.1\Sunny_School.dll
 C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp3.1\Sunny_School.pdb
 C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp3.1\Sunny_School.genruntimeconfig.cache
+C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp3.1\Razor\Pages\Info_Escolar\CreateSecond.cshtml.g.cs
+C:\Users\arxy2\Documents\Proyecto\Sunny_School\Sunny_School\obj\Debug\netcoreapp3.1\Razor\Pages\Info_Familiar\CreateThird.cshtml.g.cs
